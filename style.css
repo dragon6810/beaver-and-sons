@@ -1,0 +1,38 @@
+body
+{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(68, 180, 255);
+}
+
+.biglog-wrap
+{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.biglog
+{
+    width: 24em;
+    height: 24em;
+    left: -12em;
+    top: -12em;
+    background: url("img/log.png");
+    background-size: contain;
+    position: absolute;
+    cursor:pointer;
+    border-radius: 100%;
+}
